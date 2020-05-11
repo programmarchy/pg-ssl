@@ -1,0 +1,27 @@
+{
+  "name": "pg-ssl",
+  "version": "0.0.1",
+  "description": "A function to parse libpq-style environment variables for node-postgres ssl configuration",
+  "repository": "git@github.com:programmarchy/pg-ssl.git",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "keywords": [
+    "pg",
+    "ssl",
+    "node-postgres",
+    "postgres",
+    "postgresql",
+    "tls",
+    "pgsslrootcert",
+    "pgsslcert",
+    "pgsslkey"
+  ],
+  "author": "Donald Ness <donald.ness@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^7.1.2"
+  }
+}
